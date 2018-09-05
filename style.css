@@ -1,0 +1,38 @@
+h1
+{
+color:white;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.login
+{
+	color:white;
+text-align: center;
+border-style: inset;
+width: 200px;
+}
+.log
+{
+	color:white;
+}
+.btn
+{
+	color: blue;
+	padding: 10px;
+}
+body
+{
+	background-color: blue;
+}
+.show a {
+    color: black;
+    display: block;
+  }
