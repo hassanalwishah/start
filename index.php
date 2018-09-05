@@ -1,6 +1,11 @@
 <?php include ('server.php');
 $username= $_SESSION['username'];
 	echo $_SESSION['username'];
+	 if (isset($_GET['logout'])) {
+	 	session_destroy();
+	 	unset($_SESSION['username']);
+	 	header('location: home.php');
+	 }
 	 ?>
 <!DOCTYPE html>
 <html>
@@ -21,6 +26,6 @@ What would you like to do?
 </div>
 </form>
 <br>
-
+<a href="index.php?logout='1'" style="color: red;">Logout!</a>
 </body>
 </html>
